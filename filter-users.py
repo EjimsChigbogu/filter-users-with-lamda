@@ -18,9 +18,5 @@ rich_users = list(filter(lambda x: users[x]['balance'] >= 500, users))
 
 print('User with balance > or == to 500')
 for pin in rich_users:
-    users[pin]
     print(f"{users[pin]['name']} - {users[pin]['balance']}")
-
-
-
 
